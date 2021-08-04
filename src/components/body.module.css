@@ -1,0 +1,76 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  background: rgb(50, 45, 177);
+  background: linear-gradient(
+    170deg,
+    rgba(50, 45, 177, 1) 0%,
+    rgba(0, 241, 255, 1) 100%
+  );
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+.form {
+  margin-top: 30px;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.from1 {
+  width: 100%;
+}
+.todos{
+  margin-top: 35px;
+}
+.from1 input {
+ background: #0fb6e7;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 20px;
+  outline: none;
+  margin-right: 20px;
+   box-shadow: 14px 14px 50px -3px rgba(0, 0, 0, 0.82);
+}
+.from1 input:focus {
+  outline: none;
+}
+.from1 select {
+  background: #0fb6e7;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 10px;
+  border-radius: 25px;
+  width: 150px;
+   box-shadow: 14px 14px 50px -3px rgba(0, 0, 0, 0.82);
+}
+.from2 button{
+  background: #0fb6e7;
+  color: white;
+  font-size: 20px;
+  border-radius: 25px;
+  padding: 5px 10px;
+  width: 200px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  transition: 0.2s background, 0.2s opacity;
+   box-shadow: 14px 14px 50px -3px rgba(0, 0, 0, 0.82);
+}
+.from2 button:active{
+  background: #5ad9ff;
+}
+.from2 button:hover{
+  opacity: .8;
+}
+
+@media only screen and (max-width: 600px) {
+ .from1 select{
+   margin-top: 20px;
+ }
+}
